@@ -1,15 +1,29 @@
-#  Microclimate Monitoring (LoRaWAN)
+# 🌡️  Microclimate Monitoring (LoRaWAN)
 
-This is a sub-project of the main **Smart Lawn Care System**, focusing on real-time environmental data acquisition using a **BME280 sensor module**.
+Dies ist ein modularer Baustein unseres Hauptprojekts **„Rasenpflege leicht gemacht!“**. Es konzentriert sich auf die Erfassung von Umgebungsdaten in Echtzeit mithilfe eines **BME280-Sensormoduls**, das direkt auf Höhe der Grasnarbe am Mähroboter angebracht ist.
 
-## 📊 Objective
-To track atmospheric pressure, relative humidity, and temperature directly at ground level. This data helps analyze turf stress and determine optimal conditions for lawn maintenance and smart watering.
+---
 
-## 📈 Live Telemetry Example
-The chart below displays multi-day sensor telemetry captured by our test setup (hosted via our IoT platform at `loramint.de`):
+## 📊 Ziel des Teilprojekts
+
+Atmosphärischer Druck, relative Luftfeuchtigkeit und Temperatur direkt am Boden weichen oft stark von den normalen Wetterdaten ab. Diese Werte helfen uns dabei:
+- **Trocken- und Hitzestress zu erkennen:** Hohe Feuchtigkeit und spezifische Temperaturen beeinflussen das Rasenwachstum und das Pilzrisiko.
+- **Optimale Zeitfenster für Düngung & Bewässerung zu finden:** Dünger darf nicht bei extremer Hitze/Sonne ausgebracht werden. Die Temperaturkurven zeigen die besten Zeitpunkte.
+- **Energieeffiziente Datenübertragung:** Über funkbasierte Telemetrie (LoRa/LoRaWAN) werden die Messwerte stromsparend an den Server übertragen.
+
+---
+
+## 📈 Live-Telemetrie & Dashboard-Beispiel
+
+Das folgende Diagramm zeigt die erfassten Sensordaten unseres Testaufbaus (gehostet über unsere IoT-Plattform auf `loramint.de`). Es dokumentiert den Verlauf von Luftdruck, Luftfeuchtigkeit und Temperatur über mehrere Tage:
 
 ![BME280 Sensor Plot](../loramint-plot.jpg)
 
-## 📂 Structure
-- `README.md`: Overview of the microclimate sub-project.
-- Future firmware and scripts for the BME280 sensor node will be added here as the modular integration progresses.
+*Diese Umgebungsdaten werden später direkt mit den Messwerten des optischen NIR-Sensors und den Bodenfeuchtesensoren kombiniert, um den Zustand des Rasens präzise zu kartieren.*
+
+---
+
+## 📂 Struktur des Moduls
+
+- `README.md`: Übersicht und Dokumentation des Mikroklima-Teilprojekts.
+- Künftige Firmware-Dateien und Skripte für den BME280-Knoten werden schrittweise in diesem Ordner abgelegt.
