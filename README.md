@@ -1,4 +1,4 @@
-# Sub-Project: Microclimate Monitoring (LoRaWAN)
+#  Microclimate Monitoring (LoRaWAN)
 
 This is a sub-project of the main **Smart Lawn Care System**, focusing on real-time environmental data acquisition using a **BME280 sensor module**.
 
