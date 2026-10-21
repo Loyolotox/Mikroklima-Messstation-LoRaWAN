@@ -17,7 +17,8 @@ Atmosphärischer Druck, relative Luftfeuchtigkeit und Temperatur direkt am Boden
 
 Das folgende Diagramm zeigt die erfassten Sensordaten unseres Testaufbaus (gehostet über unsere IoT-Plattform auf `loramint.de`). Es dokumentiert den Verlauf von Luftdruck, Luftfeuchtigkeit und Temperatur über mehrere Tage:
 
-![BME280 Sensor Plot](../loramint-plot.jpg)
+<img width="1214" height="468" alt="Bildschirmfoto_2026-10-21_20-22-38" src="https://github.com/user-attachments/assets/9f471f7c-b16f-4d2f-92ef-0156fe481a95" />
+
 
 *Diese Umgebungsdaten werden später direkt mit den Messwerten des optischen NIR-Sensors und den Bodenfeuchtesensoren kombiniert, um den Zustand des Rasens präzise zu kartieren.*
 
