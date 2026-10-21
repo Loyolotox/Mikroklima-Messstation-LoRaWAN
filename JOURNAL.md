@@ -1,7 +1,5 @@
 # Journal
 
-## 2026-9-24- Initial setup of Microclimate OS
-
 ## 2026-10-21 - Project Status Overview
 
 ### Current Implementation Status
