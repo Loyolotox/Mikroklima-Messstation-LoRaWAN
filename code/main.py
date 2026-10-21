@@ -80,7 +80,7 @@ if machine.reset_cause() != machine.DEEPSLEEP_RESET:
         print("Log entry sent.")
     sleep_until_next_cycle()
 
-value = MintValue(21.5, "*C", "Raum 101", "Temperatur", "BME280")
+value = MintValue(21.5, "*C", "Home", "Temperatur", "BME280")
 if lora.sendValue(value):
     print("Measurement sent.")
 
