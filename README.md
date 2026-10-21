@@ -24,7 +24,6 @@ Das folgende Diagramm zeigt die erfassten Sensordaten unseres Testaufbaus (gehos
 
 ---
 
-## 📂 Struktur des Moduls
+## 📂 Struktur 
 
-- `README.md`: Übersicht und Dokumentation des Mikroklima-Teilprojekts.
-- Künftige Firmware-Dateien und Skripte für den BME280-Knoten werden schrittweise in diesem Ordner abgelegt.
+<img width="4202" height="3358" alt="grafik" src="https://github.com/user-attachments/assets/f61bb659-6905-4eab-97c0-f424e1490a4f" />
