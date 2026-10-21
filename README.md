@@ -29,9 +29,11 @@ Das folgende Diagramm zeigt die erfassten Sensordaten unseres Testaufbaus (gehos
 <img width="4202" height="3358" alt="grafik" src="https://github.com/user-attachments/assets/f61bb659-6905-4eab-97c0-f424e1490a4f" />
 
 
-ESP32 ↔ LA66 (Funkmodul)
-ESP32	LA66
-GPIO17 (TX = Senden)	RX (PIN 11)
-GPIO16 (RX = Empfangen)	TX (PIN 10)
-GND (Minus)	GND
-3V3 (Strom)	3V3
+### 🔌 Pinout / Verkabelung: ESP32 ↔ LA66 LoRaWAN Modul
+
+| ESP32 Pin | Funktion | LA66 Pin | Funktion | Beschreibung |
+| :--- | :--- | :--- | :--- | :--- |
+| **GPIO 17** | TX (Senden) | **PIN 11** | RX | Serielle Datenübertragung vom ESP32 zum LA66 |
+| **GPIO 16** | RX (Empfangen) | **PIN 10** | TX | Serielle Datenübertragung vom LA66 zum ESP32 |
+| **GND** | Masse (-) | **GND** | Masse (-) | Gemeinsamer Masseanschluss |
+| **3V3** | Strom (+3.3V) | **3V3** | Strom (+3.3V) | Stromversorgung des Moduls |
