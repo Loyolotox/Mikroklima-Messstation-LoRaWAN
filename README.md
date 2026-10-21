@@ -6,7 +6,7 @@ Dies ist ein modularer Baustein unseres Hauptprojekts **„Rasenpflege leicht ge
 
 ## 📊 Ziel des Teilprojekts
 
-Atmosphärischer Druck, relative Luftfeuchtigkeit und Temperatur direkt am Boden weichen oft stark von den normalen Wetterdaten ab. Diese Werte helfen uns dabei:
+Druck, relative Luftfeuchtigkeit und Temperatur direkt am Boden weichen oft stark von den normalen Wetterdaten ab. Diese Werte helfen uns dabei:
 - **Trocken- und Hitzestress zu erkennen:** Hohe Feuchtigkeit und spezifische Temperaturen beeinflussen das Rasenwachstum und das Pilzrisiko.
 - **Optimale Zeitfenster für Düngung & Bewässerung zu finden:** Dünger darf nicht bei extremer Hitze/Sonne ausgebracht werden. Die Temperaturkurven zeigen die besten Zeitpunkte.
 - **Energieeffiziente Datenübertragung:** Über funkbasierte Telemetrie (LoRa/LoRaWAN) werden die Messwerte stromsparend an den Server übertragen.
